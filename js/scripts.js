@@ -6,9 +6,11 @@ function replace(number,person1){
   let strD= "Please help, the sith lords are attacking our planet. we need all the help we can get."
   let newArray=[];
   for(let i = 0; i <= num; i++){
- 
     const substring = i.toString();
-    if (substring.includes(3)){
+    if( substring.includes(9)){
+      newArray.push(strD);
+    }
+    else if (substring.includes(3)){
       newArray.push(strA);
     }
     else if (substring.includes(2)){
@@ -17,9 +19,7 @@ function replace(number,person1){
     else if (substring.includes(1)){
       newArray.push(strC);
     }
-    else if( substring.includes(9)){
-      newArray.push(strD);
-    }
+    
     else{
       newArray.push(substring);
     }
@@ -31,9 +31,13 @@ function replace(number,person1){
     let strA = "Won't you be my neighbor,"+ person1 + "?";
     let strB = "Boop!";
     let strC= "Beep!";
+    let strD= "Please help, the sith lords are attacking our planet. we need all the help we can get."
     let newArray=[];
     for(let i = num; i >= 0; i--){
       const substring = i.toString();
+      if (substring.includes(8)){
+        newArray.push(strD);
+      }
       if (substring.includes(3)){
         newArray.push(strA);
       }
@@ -43,6 +47,7 @@ function replace(number,person1){
       else if (substring.includes(1)){
         newArray.push(strC);
       }
+      
       else{
         newArray.push(substring);
       }
