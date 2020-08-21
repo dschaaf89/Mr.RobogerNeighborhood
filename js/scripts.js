@@ -5,7 +5,7 @@ function replace(number,person1){
   let strC= "Beep!";
   let newArray=[];
   for(let i = 0; i <= num; i++){
-   // test to check if the string contains a 3, 2 ,or 1 and refactoring of last code//
+ 
     const substring = i.toString();
     if (substring.includes(3)){
       newArray.push(strA);
@@ -22,6 +22,30 @@ function replace(number,person1){
     } 
     return newArray;
   }
+  function reverseReplace(number,person1){
+    let num = parseInt(number);
+    let strA = "Won't you be my neighbor, "+ person1 + "!!!";
+    let strB = "Boop!";
+    let strC= "Beep!";
+    let newArray=[];
+    for(let i = num; i >= 0; i--){
+      const substring = i.toString();
+      if (substring.includes(3)){
+        newArray.push(strA);
+      }
+      else if (substring.includes(2)){
+        newArray.push(strB);
+      }
+      else if (substring.includes(1)){
+        newArray.push(strC);
+      }
+      else{
+        newArray.push(substring);
+      }
+      } 
+      return newArray;
+    }
+  
 
   $(document).ready(function() {
     $("form#numbers").submit(function(event) {
@@ -29,10 +53,16 @@ function replace(number,person1){
     let nums = $("#number").val(); 
     const person = $("#person").val();
     let result = replace(nums,person);
-
     $("#output").text(result);
   });
-});
+  $("form#numbers").submit(function(event) {
+    event.preventDefault();
+    let nums = $("#number").val(); 
+    const person = $("#person").val();
+    let results = reverseReplace(nums,person);
+    $("#output").text(results);
+    });
+  });
 
 
 
