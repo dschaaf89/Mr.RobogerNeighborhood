@@ -56,13 +56,15 @@ function replace(number,person1){
     let result;
     if (operator === "forward") {
       result= replace(nums, person);
-      
+      $("#results").show();
     }
     else{
     result= reverseReplace(nums,person);
+    $("#results").show();
   }
 
     $("#output").text(result);
+    
   });
 });
 
