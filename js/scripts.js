@@ -5,7 +5,6 @@ function replace(x){
   let strB = "Boop!";
   let strC= "Beep!";
   let newArray=[];
- 
   for(let i = 0; i <= num; i++){
    // test to check if the string contains a 3, 2 ,or 1 and refactoring of last code//
     const substring = i.toString();
@@ -22,9 +21,19 @@ function replace(x){
       newArray.push(substring);
     }
     } 
+    return newArray;
   }
 
-  
+  $(document).ready(function() {
+    $("form#numbers").submit(function(event) {
+    event.preventDefault();
+    let nums = ($("#number").val()); 
+    
+    let result = replace(nums);
+   
+    $("#output").text(result);
+  });
+});
 
 
 
