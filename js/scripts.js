@@ -3,6 +3,7 @@ function replace(number,person1){
   let strA = "Won't you be my neighbor,"+ person1 + "?";
   let strB = "Boop!";
   let strC= "Beep!";
+  let strD= "Please help, the sith lords are attacking our planet. we need all the help we can get."
   let newArray=[];
   for(let i = 0; i <= num; i++){
  
@@ -15,6 +16,9 @@ function replace(number,person1){
     }
     else if (substring.includes(1)){
       newArray.push(strC);
+    }
+    else if( substring.includes(9)){
+      newArray.push(strD);
     }
     else{
       newArray.push(substring);

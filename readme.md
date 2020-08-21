@@ -17,8 +17,7 @@ _This project is an example looping and is a number and subsitution generator._
 | **Add a name variable and placed it in the Won't you be my neighbor? string so it states Won't you be my neighbor, (name)?**  | 5 | 0,1,Boop!,Won't you be my neighbor,(name)?,4,5 |
 | **Made sure that the user Interface recieved the outputs**  | 5 | 0,1,Boop!,Won't you be my neighbor,(name)?,4,5 on the user interface|
 | **Tested new function to make sure it reversed the output from largest number to smallest**  | 5 | 5,4,Won't you be my neighbor,(name) ?,Boop!,Beep!,0|
-
-
+|**Tested a suprise message left in the number generator**  | 10 | 0,Beep!,Boop!,Won't you be my neighbor,Daniel ?,4,5,6,7,8,Please help, the sith lords are attacking our planet. we need all the help we can get.,Beep!
 
 
 ## Setup/Installation Requirements
