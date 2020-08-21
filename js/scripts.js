@@ -24,6 +24,22 @@ function replace(x){
     } 
   }
 
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  //else if(newArray[i] === 1){
       //  If a user inputs a 5, the program should display a list of values: ""Beep!"", , Boop!, "Won't you be my neighbor?", 4, 5 as 3 is replaced with strC
      //newArray[i]=strC;
