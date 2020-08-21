@@ -1,6 +1,6 @@
 function replace(number,person1){
   let num = parseInt(number);
-  let strA = "Won't you be my neighbor, "+ person1 + "!!!";
+  let strA = "Won't you be my neighbor,"+ person1 + "?";
   let strB = "Boop!";
   let strC= "Beep!";
   let newArray=[];
