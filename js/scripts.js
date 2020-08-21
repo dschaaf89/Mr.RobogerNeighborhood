@@ -1,4 +1,5 @@
 function replace(x){
+  
   let num = parseInt(x);
   let strA = "Won't you be my neighbor?";
   let strB = "Boop!";
@@ -6,19 +7,36 @@ function replace(x){
   let newArray=[];
  
   for(let i = 0; i <= num; i++){
-    newArray.push(i);
-    if(newArray[i] === 1){
-      //  If a user inputs a 5, the program should display a list of values: ""Beep!"", , Boop!, "Won't you be my neighbor?", 4, 5 as 3 is replaced with strC//
-      newArray[i]=strC;
+   // test to check if the string contains a 3//
+    const substring = i.toString();
+    if (substring.includes(3)){
+      newArray.push(strA);
     }
-    //  If a user inputs a 5, the program should display a list of values: "0", 1, Boop!, "Won't you be my neighbor?", 4, 5 as 3 is replaced with strB//
-    else if(newArray[i] === 2){
-      newArray[i]=strB;
+    else if (substring.includes(2)){
+      newArray.push(strB);
     }
-    //  If a user inputs a 5, the program should display a list of values: "0", 1, 2, "Won't you be my neighbor?", 4, 5 as 3 is replaced with strA//
-    else if(newArray[i] === 3){
-      newArray[i]=strA;
+    else if (substring.includes(1)){
+      newArray.push(strC);
     }
-  }
+    else{
+      newArray.push(substring);
+    }
+    
+    //else if(newArray[i] === 1){
+      //  If a user inputs a 5, the program should display a list of values: ""Beep!"", , Boop!, "Won't you be my neighbor?", 4, 5 as 3 is replaced with strC
+     //newArray[i]=strC;
+   // }
+    // If a user inputs a 5, the program should display a list of values: "0", 1, Boop!, "Won't you be my neighbor?", 4, 5 as 3 is replaced with strB
+    //else if(newArray[i] === 2){
+     // newArray[i]=strB;
+   // }
+   //   If a user inputs a 5, the program should display a list of values: "0", 1, 2, "Won't you be my neighbor?", 4, 5 as 3 is replaced with strA
+   // else if(newArray[i] === 3){
+   //   newArray[i]=strA;
+    }
+
+    
   console.log(newArray);
-}
+  }
+
+
