@@ -1,12 +1,12 @@
-# _{Application Name}_
+# _Mr.RobogerNeighborhood_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _{A introductions to looping is the basis of the project}, {August 21st,2020}_
 
-#### By _**{List of contributors}**_
+#### By _**Daniel Schaaf**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_This project is an example looping and is a number and subsitution generator._
 
 ### Specs
 | Spec | Input | Output |
@@ -15,35 +15,35 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 | **Add the numbers into the array and it changes number index value when a character = 2**  | 5 | 0,1,Boop!,Won't you be my neighbor?,4,5 |
 | **Add the numbers into the array and it changes number index value when a character = 1**  | 5 | 0,Beep!,Boop!,Won't you be my neighbor?,4,5 ||
 | **Add a name variable and placed it in the Won't you be my neighbor? string so it states Won't you be my neighbor, (name)?**  | 5 | 0,1,Boop!,Won't you be my neighbor,(name)?,4,5 |
-|**Made sure that the user Interface recieved the outputs**  | 5 | 0,1,Boop!,Won't you be my neighbor,(name)?,4,5 on the user interface|
+| **Made sure that the user Interface recieved the outputs**  | 5 | 0,1,Boop!,Won't you be my neighbor,(name)?,4,5 on the user interface|
+| **Tested new function to make sure it reversed the output from largest number to smallest**  | 5 | 5,4,Won't you be my neighbor,(name) ?,Boop!,Beep!,0|
 
 
 
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* _Clone my repository_
+* _make sure all files are included, the index.html, scripts.js,styles.css, and the bootsrap and jquiery files._
+* _run the index.html file_
+* _enter the information asked for and click weather you want to see it forward or reversed and click submit_
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+
+
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+There are no known bugs at this time.
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_if you have questions please email Daniel Schaaf @ daniel.schaaf@outlook.com_
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+_there were six products used to make the pages. HTML CSS Bootstrap.css Markdown JavaScript jquery 3.5.1_
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
-
-Copyright (c) 2016 **_{List of contributors or company name}_**
+This software is licensed under the MIT license.
+Copyright (c) 2020 **_Daniel Schaaf
