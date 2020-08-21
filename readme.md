@@ -31,6 +31,12 @@ _This project is an example looping and is a number and subsitution generator._
 
 
 
+
+ **at bottom of scripts.js file is the first steps in the code that i took before i refactored to make it more simple. it is commented out.**
+
+
+
+
 ## Known Bugs
 
 There are no known bugs at this time.
