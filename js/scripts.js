@@ -7,7 +7,7 @@ function replace(x){
   let newArray=[];
  
   for(let i = 0; i <= num; i++){
-   // test to check if the string contains a 3//
+   // test to check if the string contains a 3, 2 ,or 1 and refactoring of last code//
     const substring = i.toString();
     if (substring.includes(3)){
       newArray.push(strA);
@@ -21,8 +21,10 @@ function replace(x){
     else{
       newArray.push(substring);
     }
-    
-    //else if(newArray[i] === 1){
+    } 
+  }
+
+ //else if(newArray[i] === 1){
       //  If a user inputs a 5, the program should display a list of values: ""Beep!"", , Boop!, "Won't you be my neighbor?", 4, 5 as 3 is replaced with strC
      //newArray[i]=strC;
    // }
@@ -33,10 +35,3 @@ function replace(x){
    //   If a user inputs a 5, the program should display a list of values: "0", 1, 2, "Won't you be my neighbor?", 4, 5 as 3 is replaced with strA
    // else if(newArray[i] === 3){
    //   newArray[i]=strA;
-    }
-
-    
-  console.log(newArray);
-  }
-
-
