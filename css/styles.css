@@ -13,7 +13,17 @@ body{
 h1{
   text-align: center;
 }
-#output{
-  margin: 1%;
-  font-weight: bolder;
+
+.card{
+  margin: 5%;
+  background: rgb(166, 172, 166);
+}
+#numbers{
+  box-shadow: 0 8px 16px 0 #000000;
+  transition: 0.3s;
+  border-radius: 5px;
+  background: rgb(166, 172, 166);
+  padding: 5%;
+  
+  margin-bottom: 10%;
 }

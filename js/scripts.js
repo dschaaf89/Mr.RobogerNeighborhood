@@ -24,7 +24,7 @@ function replace(number,person1){
   }
   function reverseReplace(number,person1){
     let num = parseInt(number);
-    let strA = "Won't you be my neighbor, "+ person1 + "!!!";
+    let strA = "Won't you be my neighbor,"+ person1 + "?";
     let strB = "Boop!";
     let strC= "Beep!";
     let newArray=[];
@@ -56,6 +56,7 @@ function replace(number,person1){
     let result;
     if (operator === "forward") {
       result= replace(nums, person);
+      
     }
     else{
     result= reverseReplace(nums,person);
