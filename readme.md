@@ -11,10 +11,12 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 ### Specs
 | Spec | Input | Output |
 | :-------------     | :------------- | :------------- |
-| **add the numbers into the array and it changes number index value when a character = 3** | 5 |0,1,2,Won't you be my neighbor?,4,5 |
-| **add the numbers into the array and it changes number index value when a character = 2**  | 5 | 0,1,Boop!,Won't you be my neighbor?,4,5 |
-| **separate ones, tens, hundreds, and thousands**| 99 | XCIX |
-| **check user input for proper entry**| 2.5 | return error |
+| **Add the numbers into the array and it changes number index value when a character = 3** | 5 |0,1,2,Won't you be my neighbor?,4,5 |
+| **Add the numbers into the array and it changes number index value when a character = 2**  | 5 | 0,1,Boop!,Won't you be my neighbor?,4,5 |
+| **Add the numbers into the array and it changes number index value when a character = 1**  | 5 | 0,Beep!,Boop!,Won't you be my neighbor?,4,5 ||
+| **Add a name variable and placed it in the Won't you be my neighbor? string so it states Won't you be my neighbor, (name)?**  | 5 | 0,1,Boop!,Won't you be my neighbor,(name)?,4,5 |
+|**Made sure that the user Interface recieved the outputs**  | 5 | 0,1,Boop!,Won't you be my neighbor,(name)?,4,5 pn the user interface|
+
 
 
 
