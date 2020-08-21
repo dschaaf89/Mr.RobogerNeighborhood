@@ -38,7 +38,7 @@ _This project is an example looping and is a number and subsitution generator._
 
 ## Known Bugs
 
-There are no known bugs at this time.
+one known bug at the last second was added. when i entered the easter egg on reverse string. it didnt take out the number it is on in the string. in the case right now. reverse gives out put this Beep!,Please help, the sith lords are attacking our planet. we need all the help we can get.,9,8,7,6,5,4,Won't you be my neighbor,Daniel ?,Boop!,Beep!,0. but keeps the 9.
 
 ## Support and contact details
 
