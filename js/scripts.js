@@ -35,8 +35,8 @@ function replace(number,person1){
     let newArray=[];
     for(let i = num; i >= 0; i--){
       const substring = i.toString();
-      if (substring.includes(8)){
-        newArray.push(strD);
+      if (substring.includes(9)){
+        newArray.push(strD);" "
       }
       if (substring.includes(3)){
         newArray.push(strA);
