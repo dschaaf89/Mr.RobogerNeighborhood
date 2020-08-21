@@ -52,17 +52,18 @@ function replace(number,person1){
     event.preventDefault();
     let nums = $("#number").val(); 
     const person = $("#person").val();
-    let result = replace(nums,person);
+    const operator = $("input:radio[name=operator]:checked").val();
+    let result;
+    if (operator === "forward") {
+      result= replace(nums, person);
+    }
+    else{
+    result= reverseReplace(nums,person);
+  }
+
     $("#output").text(result);
   });
-  $("form#numbers").button(function(event) {
-    event.preventDefault();
-    let nums = $("#number").val(); 
-    const person = $("#person").val();
-    let results = reverseReplace(nums,person);
-    $("#output").text(results);
-    });
-  });
+});
 
 
 
