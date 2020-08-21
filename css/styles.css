@@ -45,7 +45,7 @@ h1{
 .jumbotron{
   box-shadow: 0 8px 16px 0 #000000;
   transition: 0.3s;
-  border-radius: 5px;
+  border: radius 5%;
   background: rgb(166, 172, 166);
   padding: 5%;
   margin-bottom: 5% ;
@@ -53,4 +53,11 @@ h1{
 }
 h4{
   text-align: center;
+}
+#greeting {
+  background: rgb(166, 172, 166);
+  margin-bottom:1%;
+  padding-bottom: 1%;
+  border-radius: 5%;
+  padding-top: 2%;
 }

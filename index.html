@@ -10,15 +10,20 @@
     <title>Mr. Roboger's Neighborhood</title>
   </head>
   <body>
-    <div class="container">
-    <div class="jumbotron"><h1>Welcome to Mr.Roboger's Neighborhood</h1></div>
-    <img src="img/c3po.jpg" alt="a picture of a cupcake" class="center">
-    <h4>Hi everyone, I am Mr.Roboger. welcome to my Neighborhood.</h4>
-    <p>
-      Today i have something special planned for you. I just recently got back from a special trip to the number factory down the road and brought back some pretty cool things.
-      its not just numbers, but some sounds too. so let me introduce my number generator, that come special from the number factory. this generator will take in a number and convert it
-      to sounds and numbers and send it back to you. sound cool lets try.
-    </p>
+    
+      <div class="jumbotron">
+        <h1>Welcome to Mr.Roboger's Neighborhood</h1>
+      </div>
+      <div id ='greeting'class="container">
+      <img src="img/c3po.jpg" alt="a picture of a cupcake" class="center">
+      <h4>Hi everyone, I am Mr.Roboger. welcome to my Neighborhood.</h4>
+      <p>
+        Today i have something special planned for you. I just recently got back from a special trip to the number factory down the road and brought back some pretty cool things.
+        its not just numbers, but some sounds too. so let me introduce my number generator, that come special from the number factory. this generator will take in a number and convert it
+        to sounds and numbers and send it back to you. sound cool lets try.
+      </p>
+    </div>
+    <div id ='form' class ="container">
     <form id = "numbers">
       <div class="form-group">
         <label for="name">What is your name?</label>
@@ -43,8 +48,7 @@
       </div>
       <button class='btn btn-outline-primary' type="submit">Submit</button>
     </form>
-
-    
+  </div>
     <div id = "results">
       <div class="card1">
         <div class="container">
@@ -52,9 +56,5 @@
         </div>
       </div>
     </div>
-    
-
-
-
   </body>
 </html>
