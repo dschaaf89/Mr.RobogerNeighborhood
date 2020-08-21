@@ -1,7 +1,6 @@
-function replace(x){
-  
-  let num = parseInt(x);
-  let strA = "Won't you be my neighbor?";
+function replace(number,person1){
+  let num = parseInt(number);
+  let strA = "Won't you be my neighbor, "+ person1 + "!!!";
   let strB = "Boop!";
   let strC= "Beep!";
   let newArray=[];
@@ -27,10 +26,10 @@ function replace(x){
   $(document).ready(function() {
     $("form#numbers").submit(function(event) {
     event.preventDefault();
-    let nums = ($("#number").val()); 
-    
-    let result = replace(nums);
-   
+    let nums = $("#number").val(); 
+    const person = $("#person").val();
+    let result = replace(nums,person);
+
     $("#output").text(result);
   });
 });

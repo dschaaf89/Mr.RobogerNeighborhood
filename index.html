@@ -1,31 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-  <link href= "css/styles.css" rel = "stylesheet" type="text/css">
-  <script src="js/jquery-3.5.1.js"></script>
-  <script src="js/scripts.js"></script>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mr. Roboger's Neighborhood</title>
-</head>
-<body>
-  <div class="container">
-    <h1>Welcome to Mr.Roboger's Neighborhood</h1>
-    <img src="img/c3po.jpg" alt="a picture of a cupcake" class="center">
-    <p>Hi everyone, I am Mr.Roboger. welcome to my Neighborhood.<br><br>
-      Today i have something special planned for you. i just recently got back from a special trip to the number factory down the road and brought back some pretty cool things.
-      its not just numbers, but some sounds too. so let me introduce my number generator, that come special from the number factory. this generator will take in a number and convert it
-      to sounds and numbers and send it back to you. sound cool lets try.
-    </p>
-    <form id = "numbers">
-      <div class="form-group">
-        <input required id = "number" class="form-group" type ="text"> Please enter a number
-      </div>
-      <button type="submit" class="btn-primary">Submit</button>
-    </form>
-  </div>
-  <div id="output">
-  </div>
-</body>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href= "css/styles.css" rel = "stylesheet" type="text/css">
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mr. Roboger's Neighborhood</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Welcome to Mr.Roboger's Neighborhood</h1>
+      <img src="img/c3po.jpg" alt="a picture of a cupcake" class="center">
+      <p>Hi everyone, I am Mr.Roboger. welcome to my Neighborhood.<br><br>
+        Today i have something special planned for you. I just recently got back from a special trip to the number factory down the road and brought back some pretty cool things.
+        its not just numbers, but some sounds too. so let me introduce my number generator, that come special from the number factory. this generator will take in a number and convert it
+        to sounds and numbers and send it back to you. sound cool lets try.
+      </p>
+      <form id = "numbers">
+        <div class="form-group">
+          <label for="name">What is your name?</label>
+          <input required id="person" class="form-control" type="text">
+        </div>
+
+        <div class="form-group">
+          <label for="nums">What is your number?</label><br>
+          <input required id = "number" class="form-group" type ="number"> 
+        </div>
+        
+        <button class='btn btn-outline-primary' type="submit">Submit</button>
+      </form>
+      <form>
+
+      </form>
+    </div>
+    <div class = "container">
+      <div id="output"></div>
+    </div>
+  </body>
 </html>
+
+
+
