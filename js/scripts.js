@@ -55,7 +55,7 @@ function replace(number,person1){
     let result = replace(nums,person);
     $("#output").text(result);
   });
-  $("form#numbers").submit(function(event) {
+  $("form#numbers").button(function(event) {
     event.preventDefault();
     let nums = $("#number").val(); 
     const person = $("#person").val();
