@@ -7,10 +7,11 @@ body{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border: 5px solid black;
+  border: 50% solid black;
   margin-top: 5%;
   margin-bottom: 5%;
-  
+  box-shadow: 0 8px 16px 0 gold;
+  border-radius: 50%;
 }
 h1{
   text-align: center;
@@ -45,4 +46,13 @@ h1{
 .jumbotron{
   background: rgb(166, 172, 166);
   border-radius: 5%;
+}
+.greeting{
+ 
+  box-shadow: 0 8px 16px 0 #000000;
+  transition: 0.3s;
+  border-radius: 50%;
+  background: rgb(166, 172, 166);
+  padding: 2%;
+  margin-bottom: 15%;
 }
